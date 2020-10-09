@@ -59,3 +59,16 @@ getUser(1).then(u => getUserRepos(u.name))
 // "Repos: ", ["repo1", "repo2"]
 
 // Promises can also be executed parallel (Promise.all()/Promise.race())
+// Same thing can be achieved with async/await  instead of then()/catch()
+
+async function displayUserRepos() {
+    const user = await getUser(1);
+    const repos = await getUserRepos(user.name);
+    console.log('User Repos:', repos);
+}
+
+displayUserRepos();
+
+// Output : "User is returned..."
+// "user has repos..."
+// "Repos: ", ["repo1", "repo2"]
