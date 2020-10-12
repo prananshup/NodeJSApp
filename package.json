@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/prananshup/NodeJSApp/issues"
   },
-  "homepage": "https://github.com/prananshup/NodeJSApp#readme"
+  "homepage": "https://github.com/prananshup/NodeJSApp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
