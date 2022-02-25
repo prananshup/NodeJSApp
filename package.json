@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/prananshup/NodeJSApp#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "read-excel-file": "^5.1.0",
+    "xmlbuilder2": "^2.4.1"
   }
 }
